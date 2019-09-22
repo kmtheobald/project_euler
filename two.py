@@ -1,4 +1,5 @@
-# adding even Fibonacci terms below a given positive integer
+# By considering the terms of the Fibonacci below four million, 
+# find the sum of the even-valued terms.
 
 def fibonacci(n):
     list = [1, 2]
@@ -14,7 +15,9 @@ def sum_terms(list):
 
 def main():
     num = int(input())
-    print('Your sum is ' + str(sum_terms(fibonacci(num))))
+    print(sum_terms(fibonacci(num)))
 
 if __name__ == "__main__":
-    main()       
+    main()
+
+# Input of 4000000 yields 4613732

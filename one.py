@@ -1,4 +1,4 @@
-# sum of all multiples of 3 or 5 below a given positive integer
+# Find the sum of all the multiples of 3 or 5 below 1000.
 
 def multiple(n):
     sum = 0
@@ -10,7 +10,9 @@ def multiple(n):
 
 def main():
     num = int(input())
-    print('Your sum is ' + str(multiple(num)))
+    print(multiple(num))
 
 if __name__ == "__main__":
     main()
+
+# Input of 1000 yields 233168
