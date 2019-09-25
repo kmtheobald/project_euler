@@ -10,7 +10,7 @@ def prime_factor(n):
                 break
         if (composite == 0):
             list.append(x)
-    print(list)
+#   print(list)
     return list
 
 def factor_check(factors, n):
