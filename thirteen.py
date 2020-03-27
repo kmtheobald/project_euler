@@ -109,11 +109,7 @@ def reduce_num(num):
         num //= 10
     return num
 
-sum = 0
-for number in numbers:
-    sum += number
-
-print(reduce_num(sum)) # evaluates to 5537376230
+print(reduce_num(sum(numbers))) # answer = 5537376230
 
 
 
