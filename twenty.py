@@ -1,3 +1,4 @@
+# Find the sum of the digits in the number 100!
 from math import factorial
 
 n = factorial(100)
