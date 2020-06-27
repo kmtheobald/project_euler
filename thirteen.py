@@ -102,14 +102,15 @@ numbers = [37107287533902102798797998220837590246510135740250,
 20849603980134001723930671666823555245252804609722,
 53503534226472524250874054075591789781264330331690]
 
-modulus = 10**10
+minimum = 10**10
 
 def reduce_num(num):
-    while(num > modulus):
+    while(num > minimum):
         num //= 10
     return num
 
-print(reduce_num(sum(numbers))) # answer = 5537376230
+print(reduce_num(sum(numbers))) 
+# answer equals 5537376230
 
 
 
