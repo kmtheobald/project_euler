@@ -16,4 +16,5 @@ for i in range(900, 1000):
             top_pal.append(product)
 
 top_pal.sort()
-print(top_pal[-1]) # gives 906609
+print(top_pal[-1])
+# answer equals 906609
