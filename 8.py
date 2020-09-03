@@ -34,3 +34,4 @@ for i in range(0, len(digits_list) - k):
         max_product = product
 
 print(max_product)
+# answer equals 23514624000

@@ -1,12 +1,12 @@
 # Find the sum of all the primes below two million
 
-import math
+from math import sqrt
 
-prime_list = []
-for integer in range (2, 2000000):
+n, prime_list = 2000000, []
+for integer in range (2, n):
     comp = False
     for prime in prime_list:
-        if (prime > math.sqrt(integer)):
+        if (prime > sqrt(integer)):
             break
         if ((integer % prime == 0)):
             comp = True
@@ -15,3 +15,4 @@ for integer in range (2, 2000000):
         prime_list.append(integer)
 
 print(sum(prime_list))
+# answer equals 142913828922

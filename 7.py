@@ -1,13 +1,13 @@
-# What is the 10 001st prime number?
+# What is the 10,001st prime number?
 
-import math
+from math import sqrt
 
-prime_list = [2]
+n, prime_list = 10001, [2]
 integer = 3
 while (len(prime_list) < 10001):
     comp = False
     for prime in prime_list:
-        if (prime > math.sqrt(integer)):
+        if (prime > sqrt(integer)):
             break
         if ((integer % prime == 0)):
             comp = True
@@ -17,3 +17,4 @@ while (len(prime_list) < 10001):
     integer += 2
 
 print(prime_list[-1])
+# answer equals 104743
