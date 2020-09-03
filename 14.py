@@ -51,3 +51,4 @@ for i in range(1, 1000000):
         max_i = i
 
 print(max_i, max_seq)
+# answer equals 837799
