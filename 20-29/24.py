@@ -7,3 +7,4 @@ lex_permutations = list(permutations('0123456789'))
 millionth = int(''.join(list(lex_permutations[999999])))
 
 print(millionth)
+# answer equals 2783915460
