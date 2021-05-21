@@ -1,10 +1,10 @@
 # Evaluate the sum of all the amicable numbers under 10000.
 
-from func import prime_factorization
+from func import factorize
 
 proper_divisors_dict = {}
 for i in range(1, 10000):
-    factor_dict = prime_factorization(i)
+    factor_dict = factorize(i)
     sum_proper_divisors = 1
     for factor in factor_dict:
         value_count = factor_dict.get(factor)

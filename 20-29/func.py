@@ -1,7 +1,7 @@
 from math import prod
 
 #returns a list of the prime factors for a given number n
-def prime_factorization(n):
+def factorize(n):
     basis, next_prime = [2, 3, 5, 7], 11
     basis_product = prod(basis)
 
