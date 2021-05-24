@@ -11,4 +11,4 @@ Completed problems:
 63 <br />
 97 <br />
 
-Note about publishing: https://projecteuler.net/about#publish
+Note about [publishing](https://projecteuler.net/about#publish)
