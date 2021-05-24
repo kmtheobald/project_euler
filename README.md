@@ -7,8 +7,9 @@ Completed problems:
 11, 12, 13, 14, 15, 16, 17, 18, 20 <br />
 21, 22, 23, 24, 28, 29, 30 <br />
 31 <br />
+48 <br />
 52, 53 <br />
 63 <br />
-97 <br />
+97, 99 <br />
 
 Note about [publishing](https://projecteuler.net/about#publish)
