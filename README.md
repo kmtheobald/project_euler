@@ -9,7 +9,7 @@ Completed problems: <br />
 31 <br />
 48 <br />
 52, 53 <br />
-63 <br />
-97, 99 <br />
+63, 67 <br />
+92, 97, 99 <br />
 
 Note about [publishing](https://projecteuler.net/about#publish)
