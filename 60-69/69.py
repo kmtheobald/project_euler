@@ -1,9 +1,5 @@
 # Find the value of n ≤ 1,000,000 for which n/φ(n) is a maximum.
 
-import sys
-import os
-sys.path.insert(1, os.path.join(sys.path[0], '..'))
-
 import func # pylint: disable=E0401
 
 max_totient_ratio = 1

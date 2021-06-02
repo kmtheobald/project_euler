@@ -1,10 +1,6 @@
 # Find the sum of all the positive integers which cannot be written as the 
 # sum of two abundant numbers.
 
-import sys
-import os
-sys.path.insert(1, os.path.join(sys.path[0], '..'))
-
 from func import factorize # pylint: disable=E0401
 
 UPPER_LIMIT = 28123

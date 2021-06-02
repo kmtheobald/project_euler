@@ -1,7 +1,7 @@
 # Find the first four consecutive integers to have four distinct prime 
 # factors each. What is the first of these numbers?
 
-from func import factorize
+from func import factorize # pylint: disable=E0401
 
 count = 0
 four_prime_factors = []

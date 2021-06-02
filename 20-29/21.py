@@ -1,6 +1,6 @@
 # Evaluate the sum of all the amicable numbers under 10000.
 
-from func import factorize
+from func import factorize # pylint: disable=E0401
 
 proper_divisors_dict = {}
 for i in range(1, 10000):

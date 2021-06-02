@@ -1,7 +1,3 @@
-import sys
-import os
-sys.path.insert(1, os.path.join(sys.path[0], '..'))
-
 # Find the sum of all numbers, less than one million, which are palindromic 
 # in base 10 and base 2.
 

@@ -1,9 +1,5 @@
 # How many Lychrel numbers are there below ten-thousand?
 
-import sys
-import os
-sys.path.insert(1, os.path.join(sys.path[0], '..'))
-
 import func # pylint: disable=E0401
 
 lychrel_count = 0
