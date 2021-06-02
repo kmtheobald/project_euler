@@ -45,3 +45,9 @@ def factorize(n):
 
 def is_palindrome(num):
     return str(num) == str(num)[::-1]
+
+def totient(num):
+    prime_factors = factorize(num).keys()
+    for p in prime_factors:
+        num *= 1 - (1 / p)
+    return num
