@@ -4,7 +4,7 @@ from math import sqrt
 
 n, prime_list = 10001, [2]
 integer = 3
-while (len(prime_list) < 10001):
+while (len(prime_list) < n):
     comp = False
     for prime in prime_list:
         if (prime > sqrt(integer)):
