@@ -10,7 +10,7 @@ Completed problems: <br />
 42, 43, 45, 47, 48 <br />
 52, 53, 55, 56 <br />
 63, 67, 69 <br />
-76, 77 <br />
+71, 72, 73, 75, 76, 77 <br />
 92, 97, 99 <br />
 
 Note about [publishing](https://projecteuler.net/about#publish)
