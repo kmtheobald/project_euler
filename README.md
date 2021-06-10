@@ -11,6 +11,7 @@ Completed problems: <br />
 52, 53, 55, 56 <br />
 63, 67, 69 <br />
 71, 72, 73, 75, 76, 77 <br />
+80 <br />
 92, 97, 99 <br />
 
 Note about [publishing](https://projecteuler.net/about#publish)
