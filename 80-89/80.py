@@ -4,14 +4,17 @@
 import decimal
 from math import sqrt
 
-decimal.getcontext().prec = 101
+decimal.getcontext().prec = 105 # safely above 100 to avoid rounding errors
 digital_sum = 0
 for i in range(1, 101):
     root = decimal.Decimal(i).sqrt()
-    num_list = list(str(root))
-    del num_list[:2]
-    dec_list = [int(x) for x in num_list]
-    digital_sum += sum(dec_list)
+    string = list(str(root))
+    if (len(string) > 2):
+        del string[1]
+        num_list = [int(c) for c in string]
+        digital_sum += sum(num_list[:100])
+    else:
+        continue
 
 print(digital_sum)
-# answer doesn't equal 40308? or 40752?
+# answer equals 40886
