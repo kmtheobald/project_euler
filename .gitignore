@@ -1,3 +1,4 @@
-__pycache__
-.vscode
-project_euler_ex/
+__pycache__/
+.vscode/
+ex/
+__init__.py
