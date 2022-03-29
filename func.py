@@ -1,7 +1,7 @@
 from math import prod
 
-#returns a list of the prime factors for a given number n
-def factorize(n):
+# returns a list or dictionary of the prime factors for a given number n
+def factorize(n, type=list):
     basis, next_prime = [2, 3, 5, 7], 11
     basis_product = prod(basis)
 
@@ -34,20 +34,24 @@ def factorize(n):
 
     if (n > 1):
         factors.append(int(n))
-#   return factors
-
-    factors_dict = {}
-    unique_factors = set(factors)
-    for factor in unique_factors:
-        factors_dict.update({factor: factors.count(factor)})
     
-    return factors_dict
+    if (type == list):
+        return factors
+    elif (type == dict):
+        factors_dict = {}
+        unique_factors = set(factors)
+        for factor in unique_factors:
+            factors_dict.update({factor: factors.count(factor)})
+        
+        return factors_dict
+    else:
+        return "Invalid return type."
 
 def is_palindrome(num):
     return str(num) == str(num)[::-1]
 
 def totient(num):
-    prime_factors = factorize(num).keys()
+    prime_factors = factorize(num, dict).keys()
     for p in prime_factors:
         num *= 1 - (1 / p)
-    return num
+    return int(num)
